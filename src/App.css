@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.manu{
+ color: rgb(255, 115, 0);
+ width: 95%;
+ height: 100vh;
+ background-color: aqua;
+ text-align: left;
+ font-size: 20px;
+ position: fixed;
+ transition: 0.2%;
+ left: -100%;
+}
+.manu ul li{
+  list-style: none;
+  padding: 10px 0px;
+}
+.activemanu{
+  left: 0%;
+}
+.micon{
+  position: absolute;
+  right: 20px;
+}
